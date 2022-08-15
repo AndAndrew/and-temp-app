@@ -1,0 +1,25 @@
+.parent {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    opacity: 80%;
+    text-align: center;
+}
+
+.parent .title {
+    width: 30%;
+    height: 50%;
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    opacity: 70%;
+}
+
+.parent .button {
+    width: 30%;
+    height: 50%;
+    font-size: 100px;
+    background-color: antiquewhite;
+    border-width: 0.3px;
+    border-radius: 15px;
+}
