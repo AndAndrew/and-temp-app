@@ -8,24 +8,27 @@
 }
 
 .parent .title {
-    width: 30%;
     height: 250px;
     font-size: 100px;
     text-align: center;
     margin: auto;
     opacity: 70%;
     font-family: "Courier";
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .parent .button {
-    width: 30%;
-    height: 50%;
     font-size: 100px;
     background-color: burlywood;
-    border-width: 0.3px;
+    border-width: 0.5px;
     border-radius: 15px;
     text-align: center;
     font-family: "Courier New";
     color: black;
+}
+
+.parent .button:active {
+    background-color: darksalmon;
+    border-width: 2px;
 }
